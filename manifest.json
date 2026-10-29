@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Cloud Blender Render — Live Download",
+  "version": "0.1.1",
+  "description": "Save original rendered frames to a chosen folder as they become available.",
+  "permissions": ["activeTab"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "Open live frame downloader"}
+}
